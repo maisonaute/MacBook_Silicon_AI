@@ -17,6 +17,7 @@ Pass
 Pass
 ## Training with Yolo
 
+''' bash
 (tf-metal) jeanfrancoisbasset@mac Downloads % yolo checks
 Ultralytics 8.3.213 🚀 Python-3.9.6 torch-2.8.0 CPU (Apple M4)
 Setup complete ✅ (10 CPUs, 16.0 GB RAM, 384.3/460.4 GB disk)
@@ -47,7 +48,7 @@ torchvision            ✅ 0.23.0>=0.9.0
 psutil                 ✅ 7.1.0
 polars                 ✅ 1.34.0
 ultralytics-thop       ✅ 2.0.17>=2.0.0
-
+'''
 
 First execution of pose
 ![HardCopy Terminal Execution with BBedit](Yolo%20M4%202025-12-01%2021h27.png)
