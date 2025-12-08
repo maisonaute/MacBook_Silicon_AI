@@ -1,6 +1,7 @@
 # Test Metal implementation on MacOS platform
 
-‘‘‘
+
+``` python
 
 import torch
 # Check that MPS is available
@@ -30,4 +31,5 @@ else:
 
     # Now every call runs on the GPU
     # pred = model(x)
-‘‘‘
+
+```
