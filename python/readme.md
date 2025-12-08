@@ -1,7 +1,7 @@
 # Test Metal implementation on MacOS platform
 
 
-``` python
+``` bash
 
 import torch
 # Check that MPS is available
