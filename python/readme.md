@@ -1,6 +1,7 @@
-Test Metal implementation on MacOS platform
+# Test Metal implementation on MacOS platform
 
-‘‘‘ python
+‘‘‘
+
 import torch
 # Check that MPS is available
 if not torch.backends.mps.is_available():
@@ -29,4 +30,4 @@ else:
 
     # Now every call runs on the GPU
     # pred = model(x)
-    ‘‘‘
+‘‘‘
